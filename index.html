@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link href='https://fonts.googleapis.com/css?family=Caveat+Brush' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class="score">
+  <div class="score-div">
+    <h2>Deaths</h2>
+    <div id="deaths" class="deaths">
+      <img src="img/die.png" />
+      <img src="img/die.png" />
+    </div>
+  </div>
+  <div class="score-div">
+    <h2>Crossings</h2>
+    <div id="crossings" class="crossings">
+      <img src="img/small-bridge.png" />
+      <img src="img/small-bridge.png" />
+    </div>
+  </div>
+</section>
+
+
+
+<section id="qa" class="qa">
+  <div id="questions" class="questions">
+    <p></p>
+  </div>
+  <div id="answers" class="answers">
+
+  </div>
+</section>
+
+<section id="progress" class="progress">
+
+</section>
+
+
+
+<section id="deaths-modal" class="modal">
+</section>
+
+<section id="crossing-modal" class="modal">
+  <img class="bridge-crossing" src="img/bridge.jpg" />
+</section>
+
+<section id="end-modal" class="end-modal modal">
+    <h3></h3>
+    <button id="new-quiz-btn" class="answer-btn">Ask me your questions (again) bridgekeeper. I am not afraid!</button>
+</section>
+
+<div id="audio">
+  <audio id="intro-audio" src="http://www.montypython.net/sounds/hg/3ques.wav"></audio>
+  <audio id="not-afraid-audio" src="http://www.montypython.net/sounds/hg/notafraid.wav"></audio>
+  <audio id="dont-know-audio" src="http://www.montypython.net/sounds/hg/assyria.wav"></audio>
+  <audio id="off-you-go-audio" src="http://www.montypython.net/sounds/hg/offyougo.wav"></audio>
+</div>
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
