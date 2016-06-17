@@ -78,9 +78,7 @@ function correct() {
 function incorrect() {
   if (questionIndex !== questions.length - 1) {
     $("#qa").hide();
-    $("#deaths-modal").append("<img class='die' src='img/die.gif' />");
     $("#deaths-modal").fadeIn().delay(3000).fadeOut(function(){
-      $("#deaths-modal").empty();
       $("#qa").show();
     });
   }
